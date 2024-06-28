@@ -1,0 +1,117 @@
+/* Basic Changes */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* nav part */
+nav {
+    background: rgb(66, 65, 65);
+    padding: 30px;
+    border-bottom: 5px solid rgb(55, 189, 144);
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+}
+.nav-logo a {
+    text-decoration: none;
+    color: aliceblue;
+}
+.nav-logo p {
+    color: antiquewhite;
+}
+.nav-item {
+    display: flex;
+    justify-content: end;
+    padding-top: 80px;
+    margin-bottom: -8px;
+}
+.nav-item ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+.nav-item a {
+    text-decoration: none;
+    color: beige;
+    border: 2px solid rgb(55, 189, 144);
+    padding: 5px;
+    padding-left: 15PX;
+    padding-right: 15PX;
+}
+/* Content part */
+.banner {
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+.banner img {
+    border: 10px solid #DDD;
+}
+main {
+    width: 880px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 10px;
+    padding-bottom: 20px;
+}
+a {
+    color: rgb(172, 113, 36);
+}
+.content-head {
+    font-weight: 900;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.head2 {
+    color: rgb(55, 189, 144);
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: -10px;
+}
+.content {
+    margin-top: -10px;
+}
+.head3 {
+    color: rgb(55, 189, 144);
+    font-size: 15px;
+}
+.small{
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+}
+.right-content-box {
+    border: 2px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: -20px;
+    margin-top: 8px;
+}
+.Search-Box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: -5px;
+}
+.list {
+    margin-left: 20px;
+    color: #37bd90;
+}
+/* footer part */
+footer {
+    background: rgb(66, 65, 65);
+    color: rgb(182, 163, 138);
+    padding-top: 40px;
+    border-top: 5px solid rgb(55, 189, 144);
+    font-size: 15px;
+}
+footer a {
+    color: rgb(182, 163, 138);
+    text-decoration: none;
+}
+.footer-item {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
